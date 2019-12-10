@@ -8,10 +8,6 @@ export default class Customer {
 		this.name = name;
 	}
 
-	getName() {
-		return this.name;
-	}
-
 	getPricingRules(): PricingRule[] {
 		return this.pricingRules;
 	}

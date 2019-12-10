@@ -6,7 +6,6 @@ export default class Order {
 	pricingRules: PricingRule[] = [];
 	itemList: LineItem[] = [];
 
-
 	constructor(pricingRules: PricingRule[]){
 		this.pricingRules = pricingRules;
 	}

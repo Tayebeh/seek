@@ -7,10 +7,6 @@ export default class Product {
 		this.price = price;
 	}
 
-	getName(): string {
-		return this.name;
-	}
-
 	getPrice(): number {
 		return this.price;
 	}
